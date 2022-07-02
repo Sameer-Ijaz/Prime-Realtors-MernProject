@@ -1,0 +1,466 @@
+/* home page */
+
+
+
+body{
+    background-color: #f0f2f6;
+    padding: 0;
+    margin: 0;
+    
+}
+ul{
+    display: inline;
+}
+
+#mainheading{
+    color: rgb(41, 144, 41);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size:70px;
+   
+}
+
+.cardt img{
+    width: 50%;
+    height: 28px;
+
+}
+
+
+
+#logo{
+    color: rgb(41, 144, 41);
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.card{
+    height: 400px;
+    
+}
+
+
+#headermenu{
+    align-items: center;
+}
+
+#cart{
+    color:rgb(41, 144, 41);
+    font-size: 1.5rem;
+}
+
+
+#myimg{
+    position: absolute;
+    height: 100%;
+    width: 101%;
+
+
+    
+    
+}
+
+
+
+
+
+
+#div4{
+    background-color: white;
+    align-items: center;
+}
+
+#mydiv4{
+    text-align: center;
+}
+
+#mydiv4 h3{
+    font: bold;
+}
+
+#mydiv4 p{
+    color: black;
+}
+#saladdiv{
+    position: relative;
+    background-color: #f0f2f6;
+    height: 300px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+
+#dreamHome{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size:30px;
+    text-align: center;
+}
+
+
+#buybtn{
+    margin: 20px;
+}
+
+
+
+.card:hover{
+    transform: scale(1.15);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#mycustomcontainer .card{
+    height: fit-content;
+    
+}
+
+#logo{
+    color: rgb(41, 144, 41);
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#prime{
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#footer{
+    background-color: rgb(86, 143, 190);
+    color: white;
+    text-align: center;
+    height: auto;
+   
+}
+#mycustomcontainer1 {
+   
+    margin-top: 30px;
+}
+.form-select {
+    margin-left: 10px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+#mycustomcontainer1 .card {
+   margin: 0px;
+   height: fit-content;
+   border: 1px;
+   border-color: rgb(240, 236, 236);
+}
+
+#mycustomcontainer1 .card img {
+    margin: 0px;
+    height: 200px;
+ }
+
+#mycustomcontainer p{
+    color: black
+}
+
+
+
+/* login page*/
+
+
+
+.container{
+    position: relative;
+}
+
+
+
+
+
+/* For Listings Page*/
+
+
+#con3{
+
+    margin-bottom: -1.1%;
+    padding: 10px;
+  }
+  
+  
+  h5{
+  
+    margin-bottom: 5%;
+  }
+  
+  
+  h3{
+  
+    margin-top: 4%;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  #fpara{
+  
+    text-align: left;
+  }
+  
+ 
+  
+  #detbtn{
+    font-size: 12px;
+  }
+  
+  #category{
+  width: 30%;
+  
+  }
+  
+  #buttons{
+  
+   float: right;
+  
+  }
+  
+  
+  #types{
+  
+   float: right;
+   
+  }
+  
+  #houses{
+  
+    margin-top: 3%;
+    text-align: left;
+    margin-left: 4%;
+    font-size: 35px;
+   
+  }
+  
+  #fp{
+  
+    text-align: left;
+    margin-left: 4%;
+    font-size: 35px;
+  }
+  
+  
+  #srch{
+    width:50%;
+  }
+  
+  
+  
+  #title1{
+  
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size:30px;
+    text-align: center;
+  
+      animation-name: example2;
+      animation-duration: 3s;
+      animation-delay: 0.3s;
+  
+  }
+  
+  #title2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size:30px;
+  
+      animation-name: example3;
+      animation-duration: 4.5s;
+      animation-delay: 0.3s;
+  
+  }
+  
+    @media (min-width: 768px) {
+      .card img {
+        height: 11em;
+      }
+    }
+  
+    @keyframes example2 {
+     
+      0% {opacity: 0;}
+      25%{opacity: 0,3;}
+      50%{opacity: 0.6;}
+      100% {opacity: 1;}
+   
+  }
+  
+  @keyframes example3 {
+     
+      0% {opacity: 0;}
+      25%{opacity: 0,3;}
+      50%{opacity: 0.6;}
+      100% {opacity: 1;}
+   
+  }
+  
+  
+  .container-fluid {
+      max-width: 1400px;
+  
+  }
+
+  input{
+      width: 100%;
+  }
+  
+ 
+
+  .listcontainer{
+      
+  }
+
+
+  .label-top {
+    position: absolute;
+    color: #fff;
+    top: 8px;
+    right: 8px;
+    padding: 5px 10px 5px 10px;
+    font-size: .7rem;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.top-right {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 900;
+    background: #8bc34a;
+    line-height: 90px;
+    text-align: center;
+    color: white;
+}
+
+.top-right span {
+  
+    vertical-align: middle;
+   
+}
+
+.aff-link {
+   
+    font-weight: 500;
+}
+
+.over-bg {
+    background: rgba(53, 53, 53, 0.85);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0.0px);
+    -webkit-backdrop-filter: blur(0.0px);
+    border-radius: 10px;
+}
+.bold-btn {
+
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 50px 5px 50px;
+}
+.box .btn {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1025px) {
+    .btn {
+        padding: 5px 40px 5px 40px;
+    }
+}
+@media (max-width: 250px) {
+    .btn {
+        padding: 5px 30px 5px 30px;
+    }
+}
+
+/* START BUTTON */
+
+
+
+.price-hp {
+    font-size: 1rem;
+    font-weight: 600;
+    color: darkgray;
+}
+
+.amz-hp {
+    font-size: .7rem;
+    font-weight: 600;
+    color: darkgray;
+}
+
+
+
+#cred-div{
+    position: relative;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    background-color: white
+}
+
+#cred1{
+
+margin-top: 1%;
+margin-bottom: 2%;
+
+width: 50px;
+height: 240px;
+
+}
+
+
+#cred2{
+
+margin-bottom: 2%;
+
+}
+
+
+
+#detbtn{
+    background-color: #ffcc00;
+    color: rgb(0, 0, 0);
+    border: none;
+    text-decoration: none;
+    outline: 0;
+    border-radius: 100px;
+
+}
+#detbtn:hover{
+    color: white;
+
+}
+
+.label-top{
+    background-color: #960796;;
+
+}
+
+.aff-link{
+    background-color: #ffcc00;
+
+}
+
+
+#subject{
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+
+
